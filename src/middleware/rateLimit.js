@@ -2,8 +2,8 @@
 
 const rateLimit = require("express-rate-limit");
 const requestRateLimit = rateLimit({
-    windowMs: 60000, // 1 hour window
-    max: 5, // start blocking after 5 requests,
+    windowMs: 60000, 
+    max: 5, 
     handler: (req, res) =>
     {
 
