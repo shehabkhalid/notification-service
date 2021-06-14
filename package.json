@@ -1,0 +1,24 @@
+{
+  "name": "notifiactionHandler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src",
+    "test": "mocha --recursive --exit",
+    "all": "concurrently \"npm test \" \"npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "concurrently": "^6.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-rate-limit": "^5.2.6",
+    "mocha": "^9.0.0",
+    "mongoose": "^5.12.13",
+    "supertest": "^6.1.3"
+  }
+}
